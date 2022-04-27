@@ -24,7 +24,7 @@ export default {
     padding-top: 20px;
 }
 li {
-    min-width: 340px;
+    min-width: 20vw;
     max-width: 80vw;
     display: flex;
     justify-content: space-between;
