@@ -4,11 +4,11 @@
     v-bind:user="user"
     v-bind:avatar="avatar"
     />
-    <ChooseBeer
-    @click="getNewBeer"
-     />
     <BeerChoice 
     v-bind:beers="beers"
+     />
+     <ChooseBeer
+    @click="getNewBeer"
      />
   </div>
 </template>

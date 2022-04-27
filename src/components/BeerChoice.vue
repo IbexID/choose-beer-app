@@ -1,5 +1,6 @@
 <template>
         <ul class="beer__list">
+            <p> Ваше пиво: </p>
             <BeerItem
             v-bind:user="user"
             v-for="item of beers"
@@ -22,9 +23,10 @@ export default {
 .beer__list
     color: white
     list-style: none
-    max-width: 400px
+    min-width: 80vw
+    padding: 0
     display: flex
     flex-direction: column
     align-items: center
-    margin: 0 auto
+    margin: 20px auto
 </style>
